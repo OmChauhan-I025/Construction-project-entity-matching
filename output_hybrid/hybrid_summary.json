@@ -1,0 +1,24 @@
+{
+  "source_a_rows": 1000,
+  "source_b_rows": 1000,
+  "total_rows": 2000,
+  "max_rows_per_source": 1000,
+  "retrieval_threshold": 0.15,
+  "retrieval_top_k": 120,
+  "final_threshold": 0.72,
+  "final_top_k": 1,
+  "stage1_candidates": 818,
+  "stage2_candidates": 818,
+  "final_matches": 276,
+  "unique_clusters": 1724,
+  "rerank_mode": "heuristic_import_or_runtime_fallback",
+  "training_notes": {
+    "u_estimation": "ok",
+    "prior_estimation": "ok"
+  },
+  "active_comparison_flags": {
+    "owner": false,
+    "contractor": false,
+    "geo": false
+  }
+}
